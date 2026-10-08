@@ -1,0 +1,218 @@
+[
+ {
+  "id": "F-01",
+  "asset": "payments-api",
+  "source": "pentest",
+  "title": "Broken object-level authorization on order lookup",
+  "cwe": "CWE-639",
+  "severity": "critical",
+  "found": "2026-02-20",
+  "fixed": "2026-02-24",
+  "retests": [
+   {
+    "date": "2026-02-25",
+    "result": "pass"
+   }
+  ]
+ },
+ {
+  "id": "F-02",
+  "asset": "card-vault",
+  "source": "pentest",
+  "title": "Missing rate limiting on verification endpoint",
+  "cwe": "CWE-307",
+  "severity": "high",
+  "found": "2026-03-10",
+  "fixed": "2026-03-28",
+  "retests": [
+   {
+    "date": "2026-03-29",
+    "result": "fail"
+   },
+   {
+    "date": "2026-04-05",
+    "result": "pass"
+   }
+  ]
+ },
+ {
+  "id": "F-03",
+  "asset": "checkout-web",
+  "source": "pentest",
+  "title": "Injection in search filter",
+  "cwe": "CWE-89",
+  "severity": "critical",
+  "found": "2026-06-02",
+  "fixed": "2026-06-06",
+  "retests": []
+ },
+ {
+  "id": "F-04",
+  "asset": "payments-api",
+  "source": "pentest",
+  "title": "Improper access control on refund endpoint",
+  "cwe": "CWE-284",
+  "severity": "high",
+  "found": "2026-07-01",
+  "fixed": null,
+  "retests": []
+ },
+ {
+  "id": "F-05",
+  "asset": "admin-portal",
+  "source": "pentest",
+  "title": "Cross-site request forgery on settings form",
+  "cwe": "CWE-352",
+  "severity": "high",
+  "found": "2026-09-04",
+  "fixed": null,
+  "retests": []
+ },
+ {
+  "id": "F-06",
+  "asset": "admin-portal",
+  "source": "pentest",
+  "title": "Verbose error messages",
+  "cwe": "CWE-209",
+  "severity": "medium",
+  "found": "2026-03-01",
+  "fixed": null,
+  "retests": [],
+  "risk_accepted": {
+   "by": null,
+   "date": "2026-03-15"
+  }
+ },
+ {
+  "id": "F-07",
+  "asset": "claims-api",
+  "source": "pentest",
+  "title": "Missing clickjacking protection",
+  "cwe": "CWE-1021",
+  "severity": "medium",
+  "found": "2026-04-01",
+  "fixed": null,
+  "retests": [],
+  "risk_accepted": {
+   "by": "CISO (J. Rivera)",
+   "date": "2026-04-03"
+  }
+ },
+ {
+  "id": "F-08",
+  "asset": "marketing-site",
+  "source": "pentest",
+  "title": "Cross-site scripting in comments",
+  "cwe": "CWE-79",
+  "severity": "critical",
+  "found": "2026-05-01",
+  "fixed": null,
+  "retests": []
+ },
+ {
+  "id": "F-09",
+  "asset": "claims-api",
+  "source": "pentest",
+  "title": "Missing authorization on claim export",
+  "cwe": "CWE-862",
+  "severity": "high",
+  "found": "2026-05-05",
+  "fixed": "2026-06-04",
+  "retests": [
+   {
+    "date": "2026-06-05",
+    "result": "pass"
+   }
+  ]
+ },
+ {
+  "id": "F-10",
+  "asset": "checkout-web",
+  "source": "pr_review",
+  "title": "Unvalidated input in coupon handler",
+  "cwe": "CWE-20",
+  "severity": "medium",
+  "found": "2026-04-12",
+  "fixed": "2026-04-12",
+  "retests": []
+ },
+ {
+  "id": "F-11",
+  "asset": "card-vault",
+  "source": "cloud",
+  "title": "Storage bucket allows public read",
+  "cwe": "CWE-732",
+  "severity": "critical",
+  "found": "2026-08-20",
+  "fixed": null,
+  "retests": []
+ },
+ {
+  "id": "F-12",
+  "asset": "payments-api",
+  "source": "cloud",
+  "title": "Network rule open to the internet on admin port",
+  "cwe": "CWE-284",
+  "severity": "high",
+  "found": "2026-01-15",
+  "fixed": "2026-01-20",
+  "retests": []
+ },
+ {
+  "id": "F-13",
+  "asset": "payments-api",
+  "source": "secrets",
+  "title": "Hard-coded database password in config",
+  "cwe": "CWE-798",
+  "severity": "high",
+  "found": "2026-03-03",
+  "fixed": "2026-03-04",
+  "retests": [],
+  "rotated": false
+ },
+ {
+  "id": "F-14",
+  "asset": "claims-api",
+  "source": "secrets",
+  "title": "API key in repository history",
+  "cwe": "CWE-798",
+  "severity": "high",
+  "found": "2026-05-20",
+  "fixed": "2026-05-21",
+  "retests": [],
+  "rotated": true
+ },
+ {
+  "id": "F-15",
+  "asset": "checkout-web",
+  "source": "dependency",
+  "title": "Image library with critical CVE",
+  "cwe": "CWE-1395",
+  "severity": "critical",
+  "found": "2026-04-01",
+  "fixed": "2026-05-15",
+  "retests": []
+ },
+ {
+  "id": "F-16",
+  "asset": "payments-api",
+  "source": "dependency",
+  "title": "HTTP client with critical CVE",
+  "cwe": "CWE-1395",
+  "severity": "critical",
+  "found": "2026-08-01",
+  "fixed": "2026-08-20",
+  "retests": []
+ },
+ {
+  "id": "F-17",
+  "asset": "claims-api",
+  "source": "dependency",
+  "title": "XML parser with high CVE",
+  "cwe": "CWE-1395",
+  "severity": "high",
+  "found": "2026-06-10",
+  "fixed": "2026-06-30",
+  "retests": []
+ }
+]

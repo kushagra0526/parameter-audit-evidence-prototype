@@ -1,0 +1,512 @@
+[
+ {
+  "id": "R-PAY-01",
+  "asset": "payments-api",
+  "date": "2026-01-02",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-02",
+  "asset": "payments-api",
+  "date": "2026-01-16",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-03",
+  "asset": "payments-api",
+  "date": "2026-01-30",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-04",
+  "asset": "payments-api",
+  "date": "2026-02-13",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-05",
+  "asset": "payments-api",
+  "date": "2026-02-27",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-06",
+  "asset": "payments-api",
+  "date": "2026-03-13",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-07",
+  "asset": "payments-api",
+  "date": "2026-03-27",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-08",
+  "asset": "payments-api",
+  "date": "2026-04-10",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-09",
+  "asset": "payments-api",
+  "date": "2026-04-24",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-10",
+  "asset": "payments-api",
+  "date": "2026-05-08",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-11",
+  "asset": "payments-api",
+  "date": "2026-07-31",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-12",
+  "asset": "payments-api",
+  "date": "2026-08-14",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-13",
+  "asset": "payments-api",
+  "date": "2026-08-28",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-14",
+  "asset": "payments-api",
+  "date": "2026-09-11",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-PAY-15",
+  "asset": "payments-api",
+  "date": "2026-09-25",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-01",
+  "asset": "card-vault",
+  "date": "2026-01-09",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-02",
+  "asset": "card-vault",
+  "date": "2026-01-23",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-03",
+  "asset": "card-vault",
+  "date": "2026-02-06",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-04",
+  "asset": "card-vault",
+  "date": "2026-02-20",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-05",
+  "asset": "card-vault",
+  "date": "2026-03-06",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-06",
+  "asset": "card-vault",
+  "date": "2026-03-20",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-07",
+  "asset": "card-vault",
+  "date": "2026-04-03",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-08",
+  "asset": "card-vault",
+  "date": "2026-04-17",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-09",
+  "asset": "card-vault",
+  "date": "2026-05-01",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-10",
+  "asset": "card-vault",
+  "date": "2026-05-15",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-11",
+  "asset": "card-vault",
+  "date": "2026-05-29",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-12",
+  "asset": "card-vault",
+  "date": "2026-06-12",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-13",
+  "asset": "card-vault",
+  "date": "2026-06-26",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-14",
+  "asset": "card-vault",
+  "date": "2026-07-10",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-15",
+  "asset": "card-vault",
+  "date": "2026-07-24",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-16",
+  "asset": "card-vault",
+  "date": "2026-08-07",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-17",
+  "asset": "card-vault",
+  "date": "2026-08-21",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-18",
+  "asset": "card-vault",
+  "date": "2026-09-04",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CAR-19",
+  "asset": "card-vault",
+  "date": "2026-09-18",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-01",
+  "asset": "checkout-web",
+  "date": "2026-01-07",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-02",
+  "asset": "checkout-web",
+  "date": "2026-01-21",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-03",
+  "asset": "checkout-web",
+  "date": "2026-02-04",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-04",
+  "asset": "checkout-web",
+  "date": "2026-02-18",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-05",
+  "asset": "checkout-web",
+  "date": "2026-03-04",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-06",
+  "asset": "checkout-web",
+  "date": "2026-03-18",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-07",
+  "asset": "checkout-web",
+  "date": "2026-04-01",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-08",
+  "asset": "checkout-web",
+  "date": "2026-04-15",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-09",
+  "asset": "checkout-web",
+  "date": "2026-04-29",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-10",
+  "asset": "checkout-web",
+  "date": "2026-05-13",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-11",
+  "asset": "checkout-web",
+  "date": "2026-05-27",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-12",
+  "asset": "checkout-web",
+  "date": "2026-06-10",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-13",
+  "asset": "checkout-web",
+  "date": "2026-06-24",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-14",
+  "asset": "checkout-web",
+  "date": "2026-07-08",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-15",
+  "asset": "checkout-web",
+  "date": "2026-07-22",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-16",
+  "asset": "checkout-web",
+  "date": "2026-08-05",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-17",
+  "asset": "checkout-web",
+  "date": "2026-08-19",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CHE-18",
+  "asset": "checkout-web",
+  "date": "2026-09-03",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-01",
+  "asset": "admin-portal",
+  "date": "2026-01-05",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-02",
+  "asset": "admin-portal",
+  "date": "2026-01-19",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-03",
+  "asset": "admin-portal",
+  "date": "2026-02-02",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-04",
+  "asset": "admin-portal",
+  "date": "2026-02-16",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-05",
+  "asset": "admin-portal",
+  "date": "2026-03-02",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-06",
+  "asset": "admin-portal",
+  "date": "2026-03-16",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-07",
+  "asset": "admin-portal",
+  "date": "2026-03-30",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-08",
+  "asset": "admin-portal",
+  "date": "2026-04-13",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-09",
+  "asset": "admin-portal",
+  "date": "2026-04-27",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-10",
+  "asset": "admin-portal",
+  "date": "2026-05-11",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-11",
+  "asset": "admin-portal",
+  "date": "2026-05-25",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-12",
+  "asset": "admin-portal",
+  "date": "2026-06-08",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-13",
+  "asset": "admin-portal",
+  "date": "2026-09-14",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-ADM-14",
+  "asset": "admin-portal",
+  "date": "2026-09-28",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-01",
+  "asset": "claims-api",
+  "date": "2026-01-12",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-02",
+  "asset": "claims-api",
+  "date": "2026-01-26",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-03",
+  "asset": "claims-api",
+  "date": "2026-02-09",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-04",
+  "asset": "claims-api",
+  "date": "2026-02-23",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-05",
+  "asset": "claims-api",
+  "date": "2026-03-09",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-06",
+  "asset": "claims-api",
+  "date": "2026-03-23",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-07",
+  "asset": "claims-api",
+  "date": "2026-04-06",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-08",
+  "asset": "claims-api",
+  "date": "2026-04-20",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-09",
+  "asset": "claims-api",
+  "date": "2026-05-04",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-10",
+  "asset": "claims-api",
+  "date": "2026-05-18",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-11",
+  "asset": "claims-api",
+  "date": "2026-06-01",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-12",
+  "asset": "claims-api",
+  "date": "2026-06-15",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-13",
+  "asset": "claims-api",
+  "date": "2026-06-29",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-14",
+  "asset": "claims-api",
+  "date": "2026-07-13",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-15",
+  "asset": "claims-api",
+  "date": "2026-07-27",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-16",
+  "asset": "claims-api",
+  "date": "2026-08-10",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-17",
+  "asset": "claims-api",
+  "date": "2026-08-24",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-18",
+  "asset": "claims-api",
+  "date": "2026-09-07",
+  "kind": "continuous"
+ },
+ {
+  "id": "R-CLA-19",
+  "asset": "claims-api",
+  "date": "2026-09-21",
+  "kind": "continuous"
+ }
+]

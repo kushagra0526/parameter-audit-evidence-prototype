@@ -1,0 +1,28 @@
+[
+ {
+  "id": "payments-api",
+  "pci": true,
+  "in_scope": true
+ },
+ {
+  "id": "card-vault",
+  "pci": true,
+  "in_scope": true
+ },
+ {
+  "id": "checkout-web",
+  "pci": true,
+  "in_scope": true
+ },
+ {
+  "id": "admin-portal",
+  "in_scope": true
+ },
+ {
+  "id": "claims-api",
+  "in_scope": true
+ },
+ {
+  "id": "marketing-site"
+ }
+]

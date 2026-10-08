@@ -1,0 +1,51 @@
+[
+ {
+  "id": "C-PAY-1",
+  "asset": "payments-api",
+  "date": "2026-02-15",
+  "significant": true,
+  "desc": "new payout provider"
+ },
+ {
+  "id": "C-PAY-2",
+  "asset": "payments-api",
+  "date": "2026-05-12",
+  "significant": true,
+  "desc": "auth service migration"
+ },
+ {
+  "id": "C-PAY-3",
+  "asset": "payments-api",
+  "date": "2026-06-01",
+  "significant": false,
+  "desc": "copy change"
+ },
+ {
+  "id": "C-VLT-1",
+  "asset": "card-vault",
+  "date": "2026-08-01",
+  "significant": true,
+  "desc": "HSM key rotation flow"
+ },
+ {
+  "id": "C-CHK-1",
+  "asset": "checkout-web",
+  "date": "2026-09-05",
+  "significant": true,
+  "desc": "new wallet checkout"
+ },
+ {
+  "id": "C-CLM-1",
+  "asset": "claims-api",
+  "date": "2026-06-15",
+  "significant": true,
+  "desc": "bulk export"
+ },
+ {
+  "id": "C-MKT-1",
+  "asset": "marketing-site",
+  "date": "2026-04-01",
+  "significant": true,
+  "desc": "CMS upgrade"
+ }
+]

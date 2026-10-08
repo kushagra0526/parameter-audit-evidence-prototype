@@ -1,0 +1,16 @@
+{
+ "audit_period": [
+  "2026-01-01",
+  "2026-09-30"
+ ],
+ "sla_days": {
+  "critical": 15,
+  "high": 30,
+  "medium": 90,
+  "low": 180
+ },
+ "retest_after_change_days": 30,
+ "test_cadence_days": 30,
+ "patch_critical_days": 30,
+ "due_soon_days": 7
+}
